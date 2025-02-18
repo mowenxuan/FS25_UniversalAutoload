@@ -17,7 +17,7 @@
 		<!-- GLOBAL -->
 		<text name="ui_global_showDebug" text="显示调试"/>
 		<text name="ui_global_highPriority" text="高优先级"/>
-		<text name="ui_global_disableAutoStrap" text="禁用张紧带"/>
+		<text name="ui_global_disableAutoStrap" text="自动张紧带"/>
 		<text name="ui_global_pricePerLog" text="每根原木的价格"/>
 		<text name="ui_global_pricePerBale" text="每个捆包价格"/>
 		<text name="ui_global_pricePerPallet" text="每个托盘价格"/>
@@ -25,7 +25,7 @@
 		
 		<text name="ui_global_tooltip_showDebug" text="显示游戏中所有车辆的完整图形调试显示"/>
 		<text name="ui_global_tooltip_highPriority" text="对 F1 菜单中的所有 UAL 键绑定应用高优先级"/>
-		<text name="ui_global_tooltip_disableAutoStrap" text="禁用张紧带的自动应用"/>
+		<text name="ui_global_tooltip_disableAutoStrap" text="装载或卸载后自动应用张紧带"/>
 		<text name="ui_global_tooltip_pricePerLog" text="每条自动加载原木的收费"/>
 		<text name="ui_global_tooltip_pricePerBale" text="每捆包自动装载货物的收费"/>
 		<text name="ui_global_tooltip_pricePerPallet" text="每个自动装载托盘的收费"/>
@@ -86,6 +86,11 @@
 		<text name="ui_option_tooltip_offsetRoot" text="区域偏移相对于的车辆 i3d 节点"/>
 		<text name="ui_option_tooltip_minLogLength" text="自动加载原木的最小长度"/>
 
+		<text name="ui_option_addRemoveAreas" text="装载区域数量"/>
+		<text name="ui_option_selectedArea" text="选定区域"/>
+		<text name="ui_option_tooltip_addRemoveAreas" text="在此调整值以添加或删除装载区域"/>
+		<text name="ui_option_tooltip_selectedArea" text="选定的区域（在下面的设置中进行修改）"/>
+		
 		<!-- LOADING_AREA -->
 		<text name="ui_loadArea_offset" text="偏移"/>
 		<text name="ui_loadArea_offsetRoot" text="偏移根"/>
@@ -126,10 +131,11 @@
 		<text name="ui_loadArea_tooltip_noLoadingIfUncovered" text="防止未覆盖时装载(仅适用于此区域)"/>
 
 		<!-- KEY BINDINGS -->
+		<text name="input_UNIVERSALAUTOLOAD_GLOBAL_MENU" text="Open global settings menu"/>
 		<text name="input_UNIVERSALAUTOLOAD_SHOP_CONFIG" text="打开配置设置菜单(在商店内)"/>
 		<text name="input_UNIVERSALAUTOLOAD_SHOP_ADJUST" text="启用装载量编辑(在商店中)"/>
 		<text name="input_UNIVERSALAUTOLOAD_TOGGLE_LOADING" text="切换装载"/>
-		<text name="input_UNIVERSALAUTOLOAD_TOGGLE_BALE_COLLECTION" text="自动捡包模式"/>
+		<text name="input_UNIVERSALAUTOLOAD_TOGGLE_COLLECTION" text="自动收集模式"/>
 		<text name="input_UNIVERSALAUTOLOAD_UNLOAD_ALL" text="卸载"/>
 		<text name="input_UNIVERSALAUTOLOAD_UNLOAD_ALL_FORCE" text="强制卸货"/>
 		<text name="input_UNIVERSALAUTOLOAD_TOGGLE_TIPSIDE" text="切换卸载端"/>
@@ -167,7 +173,10 @@
 		<text name="universalAutoload_stopLoading" text="停止装载"/>
 		<text name="universalAutoload_unloadAll" text="卸载"/>
 		<text name="universalAutoload_unloadAllForce" text="强制卸货"/>
-		<text name="universalAutoload_baleMode" text="自动打包模式"/>
+		<text name="universalAutoload_logMode" text="原木模式"/>
+		<text name="universalAutoload_baleMode" text="捡包模式"/>
+		<text name="universalAutoload_palletMode" text="托盘模式"/>
+		<text name="universalAutoload_collectionMode" text="收集模式"/>
 		<text name="universalAutoload_enabled" text="已启用"/>
 		<text name="universalAutoload_disabled" text="已停用"/>
 		<text name="universalAutoload_activate" text="激活"/>
